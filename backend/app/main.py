@@ -8,3 +8,4 @@ app.include_router(damage.router)
 @app.get("/")
 def root():
     return {"message": "API работает!"}
+
